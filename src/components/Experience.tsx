@@ -18,6 +18,16 @@ const jobs = [
         images: [],
     },
     {
+        role: "Co-Founder (Acquired By Point.me)",
+        company: "FlyFast",
+        logo: "/flyfast.png",
+        duration: "Sep 2024 - Feb 2025",
+        description:
+            "A cash flight search engine like google flights, but better",
+        link: "https://flyfast.io",
+        images: ["/flyfast-img/home.png", "/flyfast-img/calendar-view.png", "/flyfast-img/flights.png", "/flyfast-img/offers.png", "/flyfast-img/flights-results.png", "/flyfast-img/booking.png", "/flyfast-img/booking-options.png"],
+    },
+    {
         role: "Teacher Assistant",
         company: "Concordia University",
         logo: "https://concordia.ca/etc/designs/concordia/clientlibs/img/favicons/apple-touch-icon.png",

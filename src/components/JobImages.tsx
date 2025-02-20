@@ -61,7 +61,7 @@ export const JobImages = ({
                                 className="rounded-md border shadow-md object-cover"
                             />
                             <Link href={link} target="_blank" className="text-sm flex items-center justify-center text-blue-600 hover:underline mt-2">
-                                Visit Company Site
+                                Visit Site
                                 <ExternalLink className="size-4 ml-2" />
                             </Link>
                         </div>

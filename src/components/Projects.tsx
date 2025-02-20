@@ -7,10 +7,10 @@ import { Card, CardContent } from "@/components/ui/card";
 
 export const projects = [
     {
-        title: "FlyFast (Acquired by Point.me)",
-        description: "A cash flight search engine like google flights, but better",
-        tech: ["Next.js", "Go"],
-        link: "https://flyfast.io",
+        title: "ConcordiaAI",
+        description: "A Rag Chatbot that can answer questions related to courses and instructors at Concordia",
+        tech: ["LibreChat Fork"],
+        link: "https://chat.concordia.courses",
     },
     {
         title: "Flymile",
@@ -35,6 +35,7 @@ export const projects = [
 const techColors = {
     "React": "bg-blue-500",
     "React Native": "bg-green-500",
+    "LibreChat Fork": "bg-green-500",
     "Svelte": "bg-red-500",
     "Python": "bg-yellow-500",
     "JavaScript": "bg-yellow-500",
