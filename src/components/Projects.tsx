@@ -7,36 +7,38 @@ import { Card, CardContent } from "@/components/ui/card";
 
 export const projects = [
     {
-        title: "E-commerce Platform",
-        description: "A full-stack e-commerce solution with React, Node.js, and MongoDB",
-        tech: "React",
-        link: "#",
+        title: "FlyFast (Acquired by Point.me)",
+        description: "A cash flight search engine like google flights, but better",
+        tech: ["Next.js", "Go"],
+        link: "https://flyfast.io",
     },
     {
-        title: "Task Management App",
-        description: "A productivity app built with React Native and Firebase",
-        tech: "React Native",
-        link: "#",
+        title: "Flymile",
+        description: "Flight search engine designed for credit card points enthusiasts",
+        tech: ["React", "Java"],
+        link: "https://flymile.pro",
     },
     {
-        title: "Data Visualization Dashboard",
-        description: "An interactive dashboard using D3.js and Vue.js",
-        tech: "Vue.js",
-        link: "#",
+        title: "Concordia courses",
+        description: "A course and instructor review platform for Concordia students like RateMyProfessors, but better",
+        tech: ["Svelte", "Java", "Python"],
+        link: "https://concordia.courses",
     },
     {
-        title: "AI Chatbot",
-        description: "A machine learning powered chatbot using Python and TensorFlow",
-        tech: "Python",
-        link: "#",
+        title: "Visual Schedule Builder Export",
+        description: "Google Chrome extension to export Concordia's course schedule from Visual Schedule Builder to your google calendar",
+        tech: ["JavaScript"],
+        link: "https://chromewebstore.google.com/detail/visual-schedule-builder-e/nbapggbchldhdjckbhdhkhlodokjdoha",
     },
 ]
 
 const techColors = {
     "React": "bg-blue-500",
     "React Native": "bg-green-500",
-    "Vue.js": "bg-purple-500",
+    "Svelte": "bg-red-500",
     "Python": "bg-yellow-500",
+    "JavaScript": "bg-yellow-500",
+    "Next.js": "bg-gray-500",
 }
 
 export const Projects = () => {
@@ -64,11 +66,11 @@ export const Projects = () => {
                                         <div
                                             className={cn(
                                                 "size-4 rounded-full",
-                                                techColors[p.tech as keyof typeof techColors]
+                                                techColors[p.tech[0] as keyof typeof techColors]
                                             )}
                                         />
                                         <span className="text-xs font-medium text-muted-foreground">
-                                            {p.tech}
+                                            {p.tech.join(", ")}
                                         </span>
                                     </div>
                                     <Link

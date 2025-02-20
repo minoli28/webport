@@ -3,8 +3,7 @@ import Link from "next/link";
 import Image from "next/image";
 import useMediaQuery from "@/hook/useMediaQuery";
 
-import { FaXTwitter } from "react-icons/fa6";
-import { FaGithub, FaLinkedin } from "react-icons/fa";
+import { FaGithub, FaLinkedin, FaInstagram } from "react-icons/fa";
 
 import {
     Card,
@@ -16,18 +15,18 @@ import ThemeSwitcher from "@/components/ui/ThemeSwitcher";
 const socials = [
     {
         name: "Github",
-        link: "https://github.com/achris-alonzo30",
+        link: "https://github.com/Tsounguinzo",
         icon: <FaGithub className="size-4" />
     },
     {
         name: "LinkedIn",
-        link: "https://linkedin.com/in/lonzochris",
+        link: "https://www.linkedin.com/in/beaudelaire",
         icon: <FaLinkedin className="size-4" />
     },
     {
-        name: "X (Twitter)",
-        link: "https://x.com/lonz_chris",
-        icon: <FaXTwitter className="size-4" />
+        name: "Instagram",
+        link: "https://www.instagram.com/beaudelaire001",
+        icon: <FaInstagram className="size-4" />
     }
     // TODO: Add more socials here
 ]
@@ -45,14 +44,14 @@ export const Profile = () => {
                                 width={150}
                                 height={150}
                                 quality={100}
-                                src="/avatar.svg"
+                                src="/beaudelaire.jpeg"
                                 alt="Profile Picture"
                                 className="rounded-full size-12 md:w-full h-auto object-cover border-2"
                             />
                             <div className="flex flex-col items-start justify-center">
-                                <h1 className="font-bold md:mt-4 text-xl md:text-2xl">Chris Lonzo</h1>
+                                <h1 className="font-bold md:mt-4 text-xl md:text-2xl">Beaudelaire Tsoungui Nzodoumkouo</h1>
                                 <p className="text-sm md:text-base text-muted-foreground">
-                                    Solopreneur Developer
+                                    Engineer &#39;26
                                 </p>
                             </div>
                         </div>
@@ -60,13 +59,13 @@ export const Profile = () => {
                     </div>
 
                     <p className="mt-2 text-start text-sm text-muted-foreground">
-                        I am a software engineer with a passion for building products that help people live better lives.
+                        I am a software engineering student at concordia and i love to build.
                     </p>
                     <Button className="mt-4 w-full" asChild>
                         {/* TODO: Add resume */}
                         {/* TODO: Add link to schedule a call with you using Calendly or Cal */}
                         <Link
-                            href="/resume.pdf"
+                            href="https://cal.com/beaudelaire.ca"
                             target="_blank"
                             className="font-semibold uppercase"
                         >

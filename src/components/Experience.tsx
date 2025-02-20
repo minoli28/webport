@@ -8,40 +8,44 @@ import { JobImages } from "@/components/JobImages";
 
 const jobs = [
     {
-        role: "Senior Full-Stack Developer", // TODO: Replace with actual role
-        company: "Tech Innovators Inc.", // TODO: Replace with actual company name
-        logo: "/company.svg", // TODO: Replace with actual logo
-        duration: "2020 - Present",
+        role: "Software Intern",
+        company: "Autodesk",
+        logo: "https://static-dc.autodesk.net/etc.clientlibs/v605.20220721.1732/dotcom/clientlibs/clientlib-site/resources/images/favicons/app-icon-192.png",
+        duration: "May 2025 - August 2025",
         description:
-            "Lead developer for multiple high-impact projects, mentoring junior developers, and implementing best practices.",
-        link: "https://techinnovators.com",
+            "Upcoming internship at Autodesk",
+        link: "https://www.autodesk.com",
         images: [],
     },
     {
-        role: "Senior Full-Stack Developer", // TODO: Replace with actual role
-        company: "Tech Innovators Inc.", // TODO: Replace with actual company name
-        logo: "/company.svg", // TODO: Replace with actual logo
-        duration: "2018 - 2020",
+        role: "Teacher Assistant",
+        company: "Concordia University",
+        logo: "https://concordia.ca/etc/designs/concordia/clientlibs/img/favicons/apple-touch-icon.png",
+        duration: "July 2024 - Present",
         description:
-            "Developed and maintained various client projects, focusing on responsive design and performance optimization.",
-        link: "https://websolutions.com",
-        images: [
-            "/devvault.png",
-            "/devvault.png",
-        ],
+            "Teaching assistant for Object-Oriented Programming, Data Structures and Algorithms courses and Web Development courses.",
+        link: "https://ta.beaudelaire.ca",
+        images: [],
     },
     {
-        role: "Senior Full-Stack Developer", // TODO: Replace with actual role
-        company: "Tech Innovators Inc.", // TODO: Replace with actual company name
-        logo: "/company.svg", // TODO: Replace with actual logo
-        duration: "2016 - 2018",
+        role: "Software Developer Intern",
+        company: "Straumann Group",
+        logo: "https://straumann.com/resources/straumann/apple-touch-icon.png",
+        duration: "May 2024 - Aug 2024",
         description:
-            "Assisted in the development of web applications, gained experience in agile methodologies and version control.",
-        link: "https://startupventures.com",
-        images: [
-            "/devvault.png",
-            "/devvault.png",
-        ],
+            "Developed and deployed a new design for the visibility toolkit. Implementing undo/redo throughout the design workflow.",
+        link: "https://straumann.com",
+        images: [],
+    },
+    {
+        role: "Software Developer Intern",
+        company: "Straumann Group",
+        logo: "https://straumann.com/resources/straumann/apple-touch-icon.png",
+        duration: "Sep 2024 - Dec 2024",
+        description:
+            "Created test case generation tool which creates random XML docs from XML Schema. Implementing tooth tagging from AI tooth segmentation data.",
+        link: "https://straumann.com",
+        images: [],
     },
 ]
 

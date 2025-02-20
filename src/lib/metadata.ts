@@ -1,11 +1,9 @@
 import { Metadata } from 'next'
 
-// TODO: Update metadata
-
 export function constructMetadata({
-  title = 'Chris Lonzo', // TODO: Add a custom title
-  description = "I am a software engineer with a passion for building scalable and efficient web applications.", // TODO: Add a custom description
-  image = '/thumbnail.png', // TODO: Add a custom image
+  title = 'Beaudelaire Tsoungui Nzodoumkouo',
+  description = "I am a software engineering student at concordia and i love to build.",
+  image = '/beaudelaire.jpeg',
   icons = '/avatar.svg', // TODO: Add a custom icon
   noIndex = false
 }: {
@@ -28,10 +26,10 @@ export function constructMetadata({
       title,
       description,
       images: [image],
-      creator: '@chrislonzo'
+      creator: '@beaudelaire001'
     },
     icons,
-    metadataBase: new URL('https://www.chrislonzo.com'),
+    metadataBase: new URL('https://www.beaudelaire.ca'),
     ...(noIndex && {
       robots: {
         index: false,
