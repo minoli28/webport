@@ -1,12 +1,24 @@
 "use client";
 
-import dynamic from 'next/dynamic';
+import * as React from "react";
+import posthog from "posthog-js";
+import { PostHogProvider } from "posthog-js/react";
 
-const GoogleAnalytics = dynamic(
-    () => import("@next/third-parties/google")
-        .then(mod => mod.GoogleAnalytics)
-);
+if (typeof window !== "undefined") {
+  posthog.init(process.env.NEXT_PUBLIC_POSTHOG_KEY!, {
+    api_host: process.env.NEXT_PUBLIC_POSTHOG_HOST,
+    person_profiles: "always",
+  });
+}
 
-export const Analytics = () => {
-    return <GoogleAnalytics gaId={process.env.NEXT_PUBLIC_GOOGLE_ANALYTICS_ID!} />
+export interface AnalyticsProps {
+  children: React.ReactNode;
+}
+
+export function Analytics({ children }: AnalyticsProps) {
+  return (
+    <PostHogProvider client={posthog}>
+        {children}
+    </PostHogProvider>
+  );
 }
