@@ -8,6 +8,15 @@ import { JobImages } from "@/components/JobImages";
 
 const jobs = [
     {
+        role: "Engineering Consultant",
+        company: "Points Path",
+        logo: "https://pointspath.com/apple-icon.png",
+        duration: "Mar 2025 - Present",
+        description: "Building new features for the Points Path platform.",
+        link: "https://pointspath.com",
+        images: [],
+    },
+    {
         role: "Software Intern",
         company: "Autodesk",
         logo: "https://static-dc.autodesk.net/etc.clientlibs/v605.20220721.1732/dotcom/clientlibs/clientlib-site/resources/images/favicons/app-icon-192.png",
