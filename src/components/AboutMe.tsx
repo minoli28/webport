@@ -21,9 +21,7 @@ export const AboutMe = () => {
         <CardContent>
             <p className="text-muted-foreground">
                 {/* Write 1-2 sentences about yourself */}
-                I mostly do Full-stack development with an eye for good design and
-                pretty good grasp of all parts of the stack including the frontend,
-                backend, databases, devops, and cloud.
+                Industrial engineering student passionate about process optimization, operational efficiency, and continuous improvement. Driven by innovation and excellence, with a strong commitment to delivering impactful engineering solutions. Seeking opportunities to learn from experts and apply academic knowledge and technical skills within a dynamic organization.
             </p>
         </CardContent>
     </Card>

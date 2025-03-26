@@ -5,68 +5,67 @@ import { CalendarDays } from "lucide-react";
 import { Card, CardContent } from "@/components/ui/card";
 
 import { JobImages } from "@/components/JobImages";
+import { Description } from "@radix-ui/react-dialog";
 
 const jobs = [
     {
-        role: "Engineering Consultant",
-        company: "Points Path",
-        logo: "https://pointspath.com/apple-icon.png",
-        duration: "Mar 2025 - Present",
-        description: "Building new features for the Points Path platform.",
-        link: "https://pointspath.com",
-        images: [],
+      role: 'Area Manager',
+      company: 'GoBolt',
+      employmentType: 'Permanent Full-time',
+      location: 'Montreal, Quebec, Canada',
+      workMode: '',
+      startDate: 'May 2022',
+      endDate: 'Apr 2024',
+      duration: 'May 2022 - Apr 2024',
+      description: [
+        "•  Analyzed logistics performance through SAP, Power BI, and Google Looker, achieving 95% On-Time-In-Full delivery rate\n",
+        "•  Led optimization of last-mile delivery and electric vehicle (EV) routing using Samsara, Geotab, and Google Maps API, reducing delivery time by 15%\n",
+        "•  Managed transportation fleet, route planning, budgeting, and service-level performance making Montreal Branch the best perfoming market among other branches\n",
+        "•  Oversaw employee performance, attendance, and applied disciplinary measures to maintain high team standards\n",
+        "•  Enforced and improved site health and safety protocols by identifying operational risks and implementing preventative measures\n",
+        "•  Conducted strategic labor, fleet, and cost forecasting to reduce overall logistics expenses\n",
+        "•  Mitigated operational risks and optimized service quality, significantly reducing emergency logistics costs\n",
+        "•  Successfully led projects from planning through execution in a high-growth logistics environment\n"
+      ],
+      logo: 'https://media.licdn.com/dms/image/v2/C4E0BAQHrN4DVuns3Mg/company-logo_100_100/company-logo_100_100/0/1651581286082/go_bolt_logo?e=1747872000&v=beta&t=9u2DCRZ0DBhYORJ1HznZtDENMSyyVKjH-__OkKRwyws'
     },
     {
-        role: "Software Intern",
-        company: "Autodesk",
-        logo: "https://static-dc.autodesk.net/etc.clientlibs/v605.20220721.1732/dotcom/clientlibs/clientlib-site/resources/images/favicons/app-icon-192.png",
-        duration: "May 2025 - August 2025",
-        description:
-            "Upcoming internship at Autodesk",
-        link: "https://www.autodesk.com",
-        images: [],
+      role: 'Operations Team Lead - Warehousing & Transportation Systems',
+      company: 'GoBolt',
+      employmentType: 'Permanent Full-time',
+      location: 'Canada',
+      workMode: '',
+      startDate: 'Sep 2021',
+      endDate: 'May 2022',
+      duration: 'Sep 2021 - May 2022',
+      description: `• Led end-to-end routing optimization, team assignments, and fleet management to streamline last-mile delivery operations\n• Built and implemented low-level traffic prediction models, reducing unnecessary routes and improving ETA accuracy\n• Automated performance dashboards and reports using Power BI and Jira, cutting analysis time by 30%\n• Spearheaded training, coaching, and performance management initiatives, boosting team efficiency and service quality\n• Oversaw reverse logistics workflows, reducing return errors by 15% through improved process controls\n• Resolved labor disputes, managed shift planning, and optimized workforce allocation across multiple logistics hubs\n• Handled B2B client escalations and maintained strong partner relationships to ensure high service-level standards`,
+      logo: 'https://media.licdn.com/dms/image/v2/C4E0BAQHrN4DVuns3Mg/company-logo_100_100/company-logo_100_100/0/1651581286082/go_bolt_logo?e=1747872000&v=beta&t=9u2DCRZ0DBhYORJ1HznZtDENMSyyVKjH-__OkKRwyws'
     },
     {
-        role: "Co-Founder (Acquired By Point.me)",
-        company: "FlyFast",
-        logo: "/flyfast.png",
-        duration: "Sep 2024 - Feb 2025",
-        description:
-            "A cash flight search engine like google flights, but better",
-        link: "https://flyfast.io",
-        images: ["/flyfast-img/home.png", "/flyfast-img/calendar-view.png", "/flyfast-img/flights.png", "/flyfast-img/offers.png", "/flyfast-img/flights-results.png", "/flyfast-img/booking.png", "/flyfast-img/booking-options.png"],
+      role: 'Logistics planning and optimization intern',
+      company: 'GoBolt',
+      employmentType: 'Internship',
+      location: 'Canada',
+      workMode: '',
+      startDate: 'May 2021',
+      endDate: 'Sep 2021',
+      duration: 'May 2021 - Sep 2021',
+      description: `• Analyzed and improved logistics processes, including WMS and predictive analysis\n• Collaborated with HSE, warehousing, and business analytics teams using the SMART system`,
+      logo: 'https://media.licdn.com/dms/image/v2/C4E0BAQHrN4DVuns3Mg/company-logo_100_100/company-logo_100_100/0/1651581286082/go_bolt_logo?e=1747872000&v=beta&t=9u2DCRZ0DBhYORJ1HznZtDENMSyyVKjH-__OkKRwyws'
     },
     {
-        role: "Teacher Assistant",
-        company: "Concordia University",
-        logo: "https://concordia.ca/etc/designs/concordia/clientlibs/img/favicons/apple-touch-icon.png",
-        duration: "July 2024 - Present",
-        description:
-            "Teaching assistant for Object-Oriented Programming, Data Structures and Algorithms courses and Web Development courses.",
-        link: "https://ta.beaudelaire.ca",
-        images: [],
-    },
-    {
-        role: "Software Developer Intern",
-        company: "Straumann Group",
-        logo: "https://straumann.com/resources/straumann/apple-touch-icon.png",
-        duration: "May 2024 - Aug 2024",
-        description:
-            "Developed and deployed a new design for the visibility toolkit. Implementing undo/redo throughout the design workflow.",
-        link: "https://straumann.com",
-        images: [],
-    },
-    {
-        role: "Software Developer Intern",
-        company: "Straumann Group",
-        logo: "https://straumann.com/resources/straumann/apple-touch-icon.png",
-        duration: "Sep 2024 - Dec 2024",
-        description:
-            "Created test case generation tool which creates random XML docs from XML Schema. Implementing tooth tagging from AI tooth segmentation data.",
-        link: "https://straumann.com",
-        images: [],
-    },
-]
+      role: 'Operational Specialist',
+      company: 'GoBolt',
+      employmentType: 'Permanent Part-time',
+      location: 'Montreal, Quebec, Canada',
+      workMode: '',
+      startDate: 'Apr 2020',
+      endDate: 'May 2021',
+      duration: 'Apr 2020 - May 2021',
+      description: `• Ensured proper loadout of delivery vehicle and adherence to operational procedures\n• Delivered excellent customer service during deliveries and onsite interactions\n• Supported onboarding and guided new recruits in daily tasks and best practices`,
+      logo: 'https://media.licdn.com/dms/image/v2/C4E0BAQHrN4DVuns3Mg/company-logo_100_100/company-logo_100_100/0/1651581286082/go_bolt_logo?e=1747872000&v=beta&t=9u2DCRZ0DBhYORJ1HznZtDENMSyyVKjH-__OkKRwyws'
+    }
+  ];
 
 export const Experience = () => {
     return (
@@ -99,15 +98,15 @@ export const Experience = () => {
                                     <CalendarDays className="size-3 mr-2"/>
                                     {j.duration}
                                 </p>
-                                <p className="text-sm mt-2">{j.description}</p>
+                                <p className="text-sm mt-2 whitespace-pre-line">{j.description}</p>
                                 {/* Job Images */}
                                 <JobImages 
                                     role={j.role} 
-                                    link={j.link}
-                                    images={j.images} 
+                                    link={j?.link}
+                                    images={j.images ?? []}
                                     duration={j.duration} 
                                 />
-                            </li>
+                            </li>   
                         ))}
                     </ul>
                 </CardContent>

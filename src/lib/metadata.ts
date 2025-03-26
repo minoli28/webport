@@ -1,9 +1,9 @@
 import { Metadata } from 'next'
 
 export function constructMetadata({
-  title = 'Beaudelaire Tsoungui Nzodoumkouo',
-  description = "I am a software engineering student at concordia and i love to build.",
-  image = '/beaudelaire.jpeg',
+  title = 'Olivier Minani',
+  description = "I am an industrial engineering student at concordia and I love anything related to supply chain, process optimisation, quality, and continuous improvement.",
+  image = '/olivier.jpg',
   icons = '/avatar.svg', // TODO: Add a custom icon
   noIndex = false
 }: {
@@ -26,10 +26,10 @@ export function constructMetadata({
       title,
       description,
       images: [image],
-      creator: '@beaudelaire001'
+      creator: '@your_min_oli'
     },
     icons,
-    metadataBase: new URL('https://www.beaudelaire.ca'),
+    metadataBase: new URL('https://www.mrmos.ca'),
     ...(noIndex && {
       robots: {
         index: false,

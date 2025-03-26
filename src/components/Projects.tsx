@@ -5,32 +5,18 @@ import { ExternalLink } from "lucide-react";
 
 import { Card, CardContent } from "@/components/ui/card";
 
-export const projects = [
+/*
+
     {
-        title: "ConcordiaAI",
-        description: "A Rag Chatbot that can answer questions related to courses and instructors at Concordia",
-        tech: ["LibreChat Fork"],
-        link: "https://chat.concordia.courses",
-    },
-    {
-        title: "Flymile",
-        description: "Flight search engine designed for credit card points enthusiasts",
-        tech: ["React", "Java"],
-        link: "https://flymile.pro",
-    },
-    {
-        title: "Concordia courses",
-        description: "A course and instructor review platform for Concordia students like RateMyProfessors, but better",
-        tech: ["Svelte", "Java", "Python"],
-        link: "https://concordia.courses",
-    },
-    {
-        title: "Visual Schedule Builder Export",
-        description: "Google Chrome extension to export Concordia's course schedule from Visual Schedule Builder to your google calendar",
-        tech: ["JavaScript"],
-        link: "https://chromewebstore.google.com/detail/visual-schedule-builder-e/nbapggbchldhdjckbhdhkhlodokjdoha",
-    },
-]
+        "title": "",
+        "description": "",
+        "tech": [],
+        "link": ""
+    }
+
+*/
+
+export const projects = []
 
 const techColors = {
     "React": "bg-blue-500",
@@ -44,6 +30,7 @@ const techColors = {
 
 export const Projects = () => {
     return (
+        projects.length === 0 ? null :
         <>
             <h2 className="text-xl font-bold mb-4">
                 Featured Projects

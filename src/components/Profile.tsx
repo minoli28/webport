@@ -11,22 +11,24 @@ import {
 } from "@/components/ui/card";
 import { Button } from "@/components/ui/button";
 import ThemeSwitcher from "@/components/ui/ThemeSwitcher";
+import { Description } from "@radix-ui/react-dialog";
 
 const socials = [
-    {
-        name: "Github",
-        link: "https://github.com/Tsounguinzo",
-        icon: <FaGithub className="size-4" />
-    },
+    
     {
         name: "LinkedIn",
-        link: "https://www.linkedin.com/in/beaudelaire",
+        link: "https://www.linkedin.com/in/oliviermin",
         icon: <FaLinkedin className="size-4" />
     },
     {
         name: "Instagram",
-        link: "https://www.instagram.com/beaudelaire001",
+        link: "https://www.instagram.com/your_min_oli",
         icon: <FaInstagram className="size-4" />
+    },
+    {
+        name: "Github",
+        link: "https://github.com/minoli28",
+        icon: <FaGithub className="size-4" />
     }
     // TODO: Add more socials here
 ]
@@ -44,12 +46,12 @@ export const Profile = () => {
                                 width={150}
                                 height={150}
                                 quality={100}
-                                src="/beaudelaire.jpeg"
+                                src="/olivier.jpg"
                                 alt="Profile Picture"
                                 className="rounded-full size-12 md:w-full h-auto object-cover border-2"
                             />
                             <div className="flex flex-col items-start justify-center">
-                                <h1 className="font-bold md:mt-4 text-xl md:text-2xl">Beaudelaire Tsoungui Nzodoumkouo</h1>
+                                <h1 className="font-bold md:mt-4 text-xl md:text-2xl">Olivier Minani</h1>
                                 <p className="text-sm md:text-base text-muted-foreground">
                                     Engineer &#39;26
                                 </p>
@@ -59,17 +61,17 @@ export const Profile = () => {
                     </div>
 
                     <p className="mt-2 text-start text-sm text-muted-foreground">
-                        I am a software engineering student at concordia and i love to build.
+                        I am a industrial engineering student at Concordia and I love anything related to supply chain, process optimisation, quality, and continuous improvement.
                     </p>
                     <Button className="mt-4 w-full" asChild>
                         {/* TODO: Add resume */}
                         {/* TODO: Add link to schedule a call with you using Calendly or Cal */}
                         <Link
-                            href="https://cal.com/beaudelaire.ca"
+                            href="https://cal.com/mrmos"
                             target="_blank"
                             className="font-semibold uppercase"
                         >
-                            CONTACT ME
+                            BOOK TIME WITH ME
                         </Link>
                     </Button>
                     <div className="mt-4 flex flex-col space-y-2 border-t border-border pt-4 w-full">
