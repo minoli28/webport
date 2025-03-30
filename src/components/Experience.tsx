@@ -6,6 +6,7 @@ import { Card, CardContent } from "@/components/ui/card";
 
 import { JobImages } from "@/components/JobImages";
 import { Description } from "@radix-ui/react-dialog";
+import { link } from "fs";
 
 const jobs = [
     {
@@ -16,6 +17,8 @@ const jobs = [
       workMode: '',
       startDate: 'May 2022',
       endDate: 'Apr 2024',
+      link: '',
+      images: [],
       duration: 'May 2022 - Apr 2024',
       description: [
         "•  Analyzed logistics performance through SAP, Power BI, and Google Looker, achieving 95% On-Time-In-Full delivery rate\n",
@@ -102,7 +105,7 @@ export const Experience = () => {
                                 {/* Job Images */}
                                 <JobImages 
                                     role={j.role} 
-                                    link={j?.link}
+                                    link={j.link ?? ''}
                                     images={j.images ?? []}
                                     duration={j.duration} 
                                 />
