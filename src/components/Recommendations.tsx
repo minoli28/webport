@@ -9,7 +9,14 @@ import { Card, CardContent } from "@/components/ui/card";
     }
 */
 
-export const recommendations = []
+interface Recommendation {
+    name: string;
+    title: string;
+    avatarUrl: string;
+    message: string;
+}
+
+export const recommendations: Recommendation[] = []
 
 export const Recommendations = () => {
     return (

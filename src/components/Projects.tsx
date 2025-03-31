@@ -16,7 +16,21 @@ import { Card, CardContent } from "@/components/ui/card";
 
 */
 
-export const projects = []
+interface Project {
+    title: string;
+    description: string;
+    tech: string[];
+    link: string;
+}
+
+export const projects: Project[] = [
+    {
+        title: "Example Project",
+        description: "This is an example project description.",
+        tech: ["React", "Next.js"],
+        link: "https://example.com"
+    }
+];
 
 const techColors = {
     "React": "bg-blue-500",

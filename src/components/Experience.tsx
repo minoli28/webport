@@ -5,8 +5,8 @@ import { CalendarDays } from "lucide-react";
 import { Card, CardContent } from "@/components/ui/card";
 
 import { JobImages } from "@/components/JobImages";
-import { Description } from "@radix-ui/react-dialog";
-import { link } from "fs";
+//import { Description } from "@radix-ui/react-dialog";
+//import { link } from "fs";
 
 const jobs = [
     {

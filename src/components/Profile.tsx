@@ -11,7 +11,7 @@ import {
 } from "@/components/ui/card";
 import { Button } from "@/components/ui/button";
 import ThemeSwitcher from "@/components/ui/ThemeSwitcher";
-import { Description } from "@radix-ui/react-dialog";
+//import { Description } from "@radix-ui/react-dialog";
 
 const socials = [
     
