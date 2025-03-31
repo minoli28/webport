@@ -25,10 +25,10 @@ interface Project {
 
 export const projects: Project[] = [
     {
-        title: "Example Project",
-        description: "This is an example project description.",
-        tech: ["React", "Next.js"],
-        link: "https://example.com"
+        title: "Airport Ground Operations Simulation",
+        description: "Simulation of aircraft ground operations including tow truck movements, refueling processes, gate assignment, and runway scheduling using Arena Simulation.",
+        tech: ["Arena Simulation", "Operations Research"],
+        link: ""
     }
 ];
 
@@ -40,6 +40,8 @@ const techColors = {
     "Python": "bg-yellow-500",
     "JavaScript": "bg-yellow-500",
     "Next.js": "bg-gray-500",
+    "Arena Simulation": "bg-purple-500",
+    "Operations Research": "bg-pink-500"
 }
 
 export const Projects = () => {
