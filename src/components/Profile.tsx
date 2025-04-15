@@ -61,7 +61,7 @@ export const Profile = () => {
                     </div>
 
                     <p className="mt-2 text-start text-sm text-muted-foreground">
-                        I am a industrial engineering student at Concordia and I love anything related to supply chain, process optimisation, quality, and continuous improvement.
+                        I am an industrial engineering student at Concordia and I love anything related to supply chain, process optimisation, quality, and continuous improvement.
                     </p>
                     <Button className="mt-4 w-full" asChild>
                         {/* TODO: Add resume */}

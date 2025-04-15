@@ -21,7 +21,7 @@ export const AboutMe = () => {
         <CardContent>
             <p className="text-muted-foreground">
                 {/* Write 1-2 sentences about yourself */}
-                Industrial engineering student passionate about process optimization, operational efficiency, and continuous improvement. Driven by innovation and excellence, with a strong commitment to delivering impactful engineering solutions. Seeking opportunities to learn from experts and apply academic knowledge and technical skills within a dynamic organization.
+                Industrial engineer based in Montreal, passionate about process optimization, AI applications, and strategic operations. With hands-on experience leading tech-driven projects; including a $300K initiative at GoBolt managing 70+ staff. I specialize in driving operational excellence and cost efficiency. A lifelong learner and problem-solver, I am eager to keep applying innovative solutions and collaborating with forward-thinking teams to create real impact.
             </p>
         </CardContent>
     </Card>
