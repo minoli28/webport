@@ -9,6 +9,45 @@ import { JobImages } from "@/components/JobImages";
 //import { link } from "fs";
 
 const jobs = [
+    
+    {
+      role: 'Operations Supervisor',
+      company: 'Nationex',
+      employmentType: 'Permanent Part-time',
+      location: 'Canada',
+      workMode: '',
+      startDate: 'May 2025',
+      endDate: 'Present',
+      duration: 'May 2025 - Present',
+      link: '',
+      images: [],
+      description: [
+        "•  Supervised sorting operations and ensured adherence to standard operating procedures\n",
+        "•  Led and coached a operations team, conducting performance reviews to increase team efficiency\n",
+        "•  Researched and applied KPI-driven continuous improvement methods to boost operational efficiency\n",
+        "•  Optimized FTL loads for next day and two-day deliveries while managing local LTL pickups\n",
+        "•  Proactively resolved in transit delays and exceptions, coordinating contingency plans to maintain service levels\n"
+      ],
+      logo: 'https://media.licdn.com/dms/image/v2/D4E0BAQEt1gUIpdKe4Q/company-logo_200_200/company-logo_200_200/0/1699382853963/nationex_logo?e=1765411200&v=beta&t=TY_4GO39MmSJA--zLhMZmHVloHoVgVMKArloeDjdnFk'
+    },
+    {
+      role: 'Project Quality Intern',
+      company: 'GE Vernova',
+      employmentType: 'Internship',
+      location: 'Canada',
+      workMode: '',
+      startDate: 'May 2025',
+      endDate: 'Aug 2025',
+      duration: 'May 2025 - Aug 2025',
+      link: '',
+      images: [],
+      description: [
+        "•  Created detailed inspection plans for parts and assemblies\n",
+        "•  Analyzed manufactured parts for non‑conformities and managed deviation requests with suppliers and manufacturing teams\n",
+        "•  Conducted internal research on AI applications to streamline departmental and organizational processes and accelerate workflows\n"
+      ],
+      logo: 'https://media.licdn.com/dms/image/v2/D4E0BAQG3fXAI-jYu5A/company-logo_200_200/company-logo_200_200/0/1681910638687/gevernova_logo?e=1765411200&v=beta&t=-WaeAL59eFduvX4YzqWDr3CSEv9mJBgUdVOS-sl5QZ4'
+    },
     {
       role: 'Area Manager',
       company: 'GoBolt',
@@ -30,7 +69,7 @@ const jobs = [
         "•  Mitigated operational risks and optimized service quality, significantly reducing emergency logistics costs\n",
         "•  Successfully led projects from planning through execution in a high-growth logistics environment\n"
       ],
-      logo: 'https://media.licdn.com/dms/image/v2/C4E0BAQHrN4DVuns3Mg/company-logo_100_100/company-logo_100_100/0/1651581286082/go_bolt_logo?e=1747872000&v=beta&t=9u2DCRZ0DBhYORJ1HznZtDENMSyyVKjH-__OkKRwyws'
+      logo: 'https://media.licdn.com/dms/image/v2/C4E0BAQHrN4DVuns3Mg/company-logo_200_200/company-logo_200_200/0/1651581286082/go_bolt_logo?e=1765411200&v=beta&t=LEVfDLv4XOxvWXhDjRJ-ImxiGnQEkVNrkUVzvV-Z1C0'
     },
     {
       role: 'Operations Team Lead - Warehousing & Transportation Systems',
@@ -42,7 +81,7 @@ const jobs = [
       endDate: 'May 2022',
       duration: 'Sep 2021 - May 2022',
       description: `• Led end-to-end routing optimization, team assignments, and fleet management to streamline last-mile delivery operations\n• Built and implemented low-level traffic prediction models, reducing unnecessary routes and improving ETA accuracy\n• Automated performance dashboards and reports using Power BI and Jira, cutting analysis time by 30%\n• Spearheaded training, coaching, and performance management initiatives, boosting team efficiency and service quality\n• Oversaw reverse logistics workflows, reducing return errors by 15% through improved process controls\n• Resolved labor disputes, managed shift planning, and optimized workforce allocation across multiple logistics hubs\n• Handled B2B client escalations and maintained strong partner relationships to ensure high service-level standards`,
-      logo: 'https://media.licdn.com/dms/image/v2/C4E0BAQHrN4DVuns3Mg/company-logo_100_100/company-logo_100_100/0/1651581286082/go_bolt_logo?e=1747872000&v=beta&t=9u2DCRZ0DBhYORJ1HznZtDENMSyyVKjH-__OkKRwyws'
+      logo: 'https://media.licdn.com/dms/image/v2/C4E0BAQHrN4DVuns3Mg/company-logo_200_200/company-logo_200_200/0/1651581286082/go_bolt_logo?e=1765411200&v=beta&t=LEVfDLv4XOxvWXhDjRJ-ImxiGnQEkVNrkUVzvV-Z1C0'
     },
     {
       role: 'Logistics planning and optimization intern',
@@ -54,7 +93,7 @@ const jobs = [
       endDate: 'Sep 2021',
       duration: 'May 2021 - Sep 2021',
       description: `• Analyzed and improved logistics processes, including WMS and predictive analysis\n• Collaborated with HSE, warehousing, and business analytics teams using the SMART system`,
-      logo: 'https://media.licdn.com/dms/image/v2/C4E0BAQHrN4DVuns3Mg/company-logo_100_100/company-logo_100_100/0/1651581286082/go_bolt_logo?e=1747872000&v=beta&t=9u2DCRZ0DBhYORJ1HznZtDENMSyyVKjH-__OkKRwyws'
+      logo: 'https://media.licdn.com/dms/image/v2/C4E0BAQHrN4DVuns3Mg/company-logo_200_200/company-logo_200_200/0/1651581286082/go_bolt_logo?e=1765411200&v=beta&t=LEVfDLv4XOxvWXhDjRJ-ImxiGnQEkVNrkUVzvV-Z1C0'
     },
     {
       role: 'Operational Specialist',
@@ -66,8 +105,9 @@ const jobs = [
       endDate: 'May 2021',
       duration: 'Apr 2020 - May 2021',
       description: `• Ensured proper loadout of delivery vehicle and adherence to operational procedures\n• Delivered excellent customer service during deliveries and onsite interactions\n• Supported onboarding and guided new recruits in daily tasks and best practices`,
-      logo: 'https://media.licdn.com/dms/image/v2/C4E0BAQHrN4DVuns3Mg/company-logo_100_100/company-logo_100_100/0/1651581286082/go_bolt_logo?e=1747872000&v=beta&t=9u2DCRZ0DBhYORJ1HznZtDENMSyyVKjH-__OkKRwyws'
+      logo: 'https://media.licdn.com/dms/image/v2/C4E0BAQHrN4DVuns3Mg/company-logo_200_200/company-logo_200_200/0/1651581286082/go_bolt_logo?e=1765411200&v=beta&t=LEVfDLv4XOxvWXhDjRJ-ImxiGnQEkVNrkUVzvV-Z1C0'
     }
+    
   ];
 
 export const Experience = () => {
@@ -86,6 +126,7 @@ export const Experience = () => {
                                         alt={j.company}
                                         width={40}
                                         height={40}
+                                        unoptimized
                                         className="rounded-md border shadow-md object-cover"
                                     />
                                     <div>
