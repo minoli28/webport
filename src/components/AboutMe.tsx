@@ -24,7 +24,7 @@ export const AboutMe = () => {
                 Industrial engineer based in Montreal with a strong focus on AI, operations optimization, 
                 and intelligent systems design. I combine engineering principles with emerging technologies to improve efficiency, 
                 reduce costs, and build scalable solutions. 
-                I've led high-impact operational projects—including a $300K process improvement initiative at GoBolt overseeing a team of 70+ staff and have hands-on experience designing automation tools, 
+                I&apos;ve led high-impact operational projects—including a $300K process improvement initiative at GoBolt overseeing a team of 70+ staff and have hands-on experience designing automation tools, 
                 building early AI models, and applying quantitative methods to real operational challenges. A problem-solver at heart and a lifelong learner, 
                 I am continuously exploring ways to integrate AI, data, and complex operations to create systems that think, evolve, and deliver real-world value. 
                 I thrive in fast-paced environments and enjoy collaborating with teams that push boundaries and build what others think is impossible.
