@@ -1,7 +1,7 @@
 "use client";
 import Link from "next/link";
 import Image from "next/image";
-import useMediaQuery from "@/hook/useMediaQuery";
+
 
 import { Card, CardContent } from "@/components/ui/card";
 import { Button } from "@/components/ui/button";
@@ -9,7 +9,7 @@ import ThemeSwitcher from "@/components/ui/ThemeSwitcher";
 import { resumeData } from "@/data/resume";
 
 export const Profile = () => {
-    const isDesktopOrLaptop = useMediaQuery("(min-width: 1224px)");
+
 
     return (
         <Card>

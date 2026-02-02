@@ -60,7 +60,7 @@ export const PhysicsBackground = () => {
         // Add Bodies (Icons)
         const scale = Math.max(width, height) / 1440 * 0.7; // Responsive scale
 
-        physicsIcons.forEach((icon, i) => {
+        physicsIcons.forEach((icon) => {
             // Create multiple copies of icons for more fun
             for (let j = 0; j < 3; j++) {
                 const x = Math.random() * width;
@@ -147,7 +147,9 @@ export const PhysicsBackground = () => {
             Runner.stop(runner);
             Engine.clear(engine);
             render.canvas.remove();
+            // eslint-disable-next-line @typescript-eslint/no-explicit-any
             render.canvas = null as any;
+            // eslint-disable-next-line @typescript-eslint/no-explicit-any
             render.context = null as any;
             render.textures = {};
         };
